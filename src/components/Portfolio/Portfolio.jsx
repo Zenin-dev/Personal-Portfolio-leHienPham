@@ -11,7 +11,7 @@ const Portfolio = () => {
           <div className='project-media'>
             <img
               className='project__img'
-              src='./src/assets/img/project-Shine-Smile.png'
+              src='/src/assets/img/project-Shine-Smile.png'
               alt='Shine Smile'
             />
           </div>
@@ -53,7 +53,7 @@ const Portfolio = () => {
           <div className='project-media'>
             <img
               className='project__img'
-              src='./src/assets/img/project-Lesson.png'
+              src='/src/assets/img/project-Lesson.png'
               alt='Shine Smile'
             />
           </div>
