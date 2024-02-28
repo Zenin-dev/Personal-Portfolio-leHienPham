@@ -3,7 +3,7 @@ import { MdEmail } from 'react-icons/md'
 import { FaGithub } from 'react-icons/fa'
 const Contact = () => {
   return (
-    <section id='contact' className='bg-grey-10'>
+    <section id='contact' className='bg-grey-10 dark:bg-dark-grey-10'>
       <div className='container mx-auto px-4'>
         {/* <!-- contact heading --> */}
         <div className='section-heading'>
@@ -13,7 +13,7 @@ const Contact = () => {
         <div className='contact-center md:flex'>
           <div className='contact-info md:w-1/2'>
             <h3 className='section-heading-lv2'>Contact Info</h3>
-            <ul className='mt-5 flex flex-col gap-5 text-primary-1'>
+            <ul className='mt-5 flex flex-col gap-5 text-primary-1 dark:text-dark-primary-1'>
               {/* <!-- item 1 --> */}
               <li className='contact-item'>
                 <IoLocationSharp size={'24px'} />

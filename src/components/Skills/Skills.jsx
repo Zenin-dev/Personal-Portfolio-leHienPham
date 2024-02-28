@@ -9,7 +9,7 @@ import { FaBootstrap } from 'react-icons/fa'
 import { FaGitAlt } from 'react-icons/fa'
 const Skills = () => {
   return (
-    <section id='skills' className=' bg-grey-10'>
+    <section id='skills' className=' bg-grey-10 dark:bg-dark-grey-10 '>
       <div className='container'>
         <div className='section-heading'>
           <h2>Skills</h2>

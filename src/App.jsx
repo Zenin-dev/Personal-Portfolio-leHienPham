@@ -34,8 +34,10 @@ function App() {
     }
   }, [windowSize])
   return (
-    <div id='content-wrapper' className='font-primary text-grey-1'>
-      <div id='hero' className='h-screen bg-primary-10 dark:bg-slate-400'>
+    <div
+      id='content-wrapper'
+      className='font-primary text-grey-1 dark:text-dark-grey-1'>
+      <div id='hero' className='h-screen bg-primary-10 dark:bg-dark-primary-10'>
         <NavBar isMobile={isMobile} />
         <About />
       </div>

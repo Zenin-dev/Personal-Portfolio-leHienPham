@@ -6,18 +6,18 @@ const About = () => {
           <div id='about-content' className='text-center md:text-left md:w-3/5'>
             <div
               id='about-hello'
-              className='text-xl md:text-3xl md:leading-relaxed text-grey-2 font-semibold'>
+              className='text-xl md:text-3xl md:leading-relaxed font-semibold'>
               Xin chào! <br></br>
               Tôi là Hiền, một
             </div>
             <h1
               id='about-title'
-              className='mt-2 text-4xl md:text-6xl text-primary-5 font-semibold'>
+              className='mt-2 text-4xl md:text-6xl text-primary-5 dark:text-dark-primary-5 font-semibold'>
               Web Developer
             </h1>
             <p
               id='about-desc'
-              className='mt-5 text-base md:leading-relaxed text-grey-3 md:w-4/5'>
+              className='mt-5 text-base md:leading-relaxed md:w-4/5'>
               Đến với lập trình, tôi tìm thấy niềm đam mê khi được tập trung sâu
               vào việc hoàn thành những dự án. Vì vậy, tôi đã quyết định tự học
               để trở thành một lập trình viên. Hiện tại, tôi có thể lập trình

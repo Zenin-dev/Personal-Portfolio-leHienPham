@@ -12,29 +12,33 @@ const NavBar = props => {
     setOpenMenu(!openMenu)
   }
   return (
-    <nav id='nav' className='bg-white md:bg-primary-10 z-10'>
+    <nav
+      id='nav'
+      className='bg-white dark:bg-dark-white md:bg-primary-10 dark:md:bg-dark-primary-10  z-10'>
       <div className='container mx-auto px-5'>
         <div className='flex items-center h-16 md:h-22'>
           <div
             id='logo'
-            className='font-primary text-lg md:text-xl text-primary-5 font-bold'>
+            className='font-primary text-lg md:text-xl text-primary-5 dark:text-dark-primary-5 font-bold'>
             <p>#leHienPham</p>
           </div>
           {isDarkMode ? (
             <FaMoon
-              className='ml-4 text-primary-5 cursor-pointer'
+              className='ml-4 text-primary-5 dark:text-dark-primary-5 cursor-pointer'
               size={'24px'}
               onClick={() => toggleDarkMode(!isDarkMode)}
             />
           ) : (
             <IoSunny
-              className='ml-3 text-primary-5 cursor-pointer'
+              className='ml-3 text-primary-5 dark:text-dark-primary-5 cursor-pointer'
               size={'30px'}
               onClick={() => toggleDarkMode(!isDarkMode)}
             />
           )}
 
-          <ul id='nav-menu' className='ml-auto text-primary-5'>
+          <ul
+            id='nav-menu'
+            className='ml-auto text-primary-5 dark:text-dark-primary-5'>
             {openMenu && isMobile ? (
               <IoMdClose
                 size={'30px'}
@@ -64,7 +68,7 @@ const NavBar = props => {
               </div>
             )}
             {openMenu && (
-              <div className='flex flex-col gap-y-3 absolute right-8 bg-white p-8 text-center text-sm'>
+              <div className='flex flex-col gap-y-2 absolute right-8 bg-white dark:bg-dark-white p-6 text-center text-sm'>
                 <li className='nav__link' onClick={handleMenu}>
                   <a href='#about'>About</a>
                 </li>

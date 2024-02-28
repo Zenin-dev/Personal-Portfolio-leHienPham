@@ -8,23 +8,23 @@
     @apply lg:max-w-[1170px] mx-auto p-4;
   }
   .btn {
-    @apply mt-7 text-base md:text-lg font-semibold rounded-lg px-3 py-1 bg-primary-5 hover:scale-105 hover:bg-primary-6 duration-200;
+    @apply mt-7 text-base md:text-lg font-semibold rounded-lg px-3 py-1 bg-primary-5 dark:bg-dark-primary-5 hover:scale-105 hover:bg-primary-6 duration-200;
   }
   .nav__link {
     @apply cursor-pointer p-1 hover:scale-105 hover:drop-shadow-sm duration-200;
   }
   .section-heading {
-    @apply flex flex-col pt-10 md:pt-16 md:items-center text-4xl md:text-5xl text-grey-1 font-semibold font-secondary;
+    @apply flex flex-col pt-10 md:pt-16 md:items-center text-4xl md:text-5xl text-grey-1 dark:text-dark-grey-1 font-semibold font-secondary;
   }
   .section-heading-lv2 {
     @apply mt-12 text-20 md:text-[26px] tracking-widest font-semibold;
   }
   .section-heading-underline {
-    @apply w-[60px] md:w-[80px] h-[3px] md:h-[4px] bg-primary-5 mt-2 md:mt-4;
+    @apply w-[60px] md:w-[80px] h-[3px] md:h-[4px] bg-primary-5 dark:bg-dark-primary-5 mt-2 md:mt-4;
   }
   /* skills */
   .skills-item {
-    @apply flex flex-col justify-center items-center text-primary-1;
+    @apply flex flex-col justify-center items-center text-primary-1 dark:text-dark-primary-1;
   }
   .skills-name {
     @apply mt-1 text-sm md:text-base;
@@ -46,7 +46,7 @@
     @apply rounded-lg;
   }
   .project__title {
-    @apply mt-10 text-20 md:text-30 text-grey-1 font-secondary font-bold tracking-wider;
+    @apply mt-10 text-20 md:text-30 text-grey-1 dark:text-dark-grey-1 font-secondary font-bold tracking-wider;
   }
   .project__desc {
     @apply mt-5 tracking-wider;

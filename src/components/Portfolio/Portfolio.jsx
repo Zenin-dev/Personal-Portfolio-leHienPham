@@ -1,6 +1,6 @@
 const Portfolio = () => {
   return (
-    <section id='portfolio'>
+    <section id='portfolio' className='dark:bg-dark-white'>
       <div className='container'>
         <div className='section-heading'>
           <h2>Portfolio</h2>
@@ -40,7 +40,7 @@ const Portfolio = () => {
                 Live
               </a>
               <a
-                className='btn mt-1'
+                className='btn md:mt-1'
                 href='https://github.com/Zenin-dev/Responsive-web-design__Dental-clinic--Shine-Smile'
                 target='_blank'>
                 Source
@@ -82,7 +82,7 @@ const Portfolio = () => {
                 Live
               </a>
               <a
-                className='btn mt-1'
+                className='btn md:mt-1'
                 href='https://github.com/Zenin-dev/Responsive-web-design__Dental-clinic--Shine-Smile'
                 target='_blank'>
                 Source
