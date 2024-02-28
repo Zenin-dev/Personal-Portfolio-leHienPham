@@ -1,3 +1,5 @@
+import avatar from '/src/assets/img/avatar.jpg'
+
 const About = () => {
   return (
     <section id='about' className='md:mt-[120px]'>
@@ -33,8 +35,8 @@ const About = () => {
               className='w-[150px] md:w-[250px] h-[150px] md:h-[250px] rounded-full truncate'>
               <img
                 className='w-[150px] md:w-[250px]'
-                src='/src/assets/img/avatar.jpg'
-                alt=''
+                src={avatar}
+                alt='avatar'
               />
             </div>
           </div>

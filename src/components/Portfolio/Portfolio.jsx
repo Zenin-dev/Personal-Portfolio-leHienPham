@@ -1,3 +1,5 @@
+import projectImg1 from '/src/assets/img/project-Shine-Smile.png'
+import projectImg2 from '/src/assets/img/project-Lesson.png'
 const Portfolio = () => {
   return (
     <section id='portfolio' className='dark:bg-dark-white'>
@@ -9,11 +11,7 @@ const Portfolio = () => {
         {/* <!-- project 1 --> */}
         <div className='project-item'>
           <div className='project-media'>
-            <img
-              className='project__img'
-              src='/src/assets/img/project-Shine-Smile.png'
-              alt='Shine Smile'
-            />
+            <img className='project__img' src={projectImg1} alt='Shine Smile' />
           </div>
           <div className='project-content'>
             <h3 className='project__title'>
@@ -51,11 +49,7 @@ const Portfolio = () => {
         {/* <!-- project 2 --> */}
         <div className='project-item project-item-even'>
           <div className='project-media'>
-            <img
-              className='project__img'
-              src='/src/assets/img/project-Lesson.png'
-              alt='Shine Smile'
-            />
+            <img className='project__img' src={projectImg2} alt='Shine Smile' />
           </div>
           <div className='project-content'>
             <h3 className='project__title'>
