@@ -4,12 +4,39 @@ import NavBar from './components/NavBar/NavBar'
 import Skills from './components/Skills/Skills'
 import Portfolio from './components/Portfolio/Portfolio'
 import Contact from './components/Contact/Contact'
+// import { useSpring, animated } from 'react-spring'
+import { useEffect, useState } from 'react'
 
 function App() {
+  const [windowSize, setWindowSize] = useState({
+    width: undefined,
+    height: undefined,
+  })
+  const [isMobile, setMobile] = useState(false)
+
+  useEffect(() => {
+    const handleSize = () => {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      })
+    }
+    window.addEventListener('resize', handleSize)
+    handleSize()
+    return () => window.removeEventListener('resize', handleSize)
+  }, [])
+
+  useEffect(() => {
+    if (windowSize.width < 768) {
+      setMobile(true)
+    } else {
+      setMobile(false)
+    }
+  }, [windowSize])
   return (
-    <div id='content-wrapper' className='font-primary text-grey-1 h-[10000px]'>
-      <div id='hero' className='h-screen bg-primary-10'>
-        <NavBar />
+    <div id='content-wrapper' className='font-primary text-grey-1'>
+      <div id='hero' className='h-screen bg-primary-10 dark:bg-slate-400'>
+        <NavBar isMobile={isMobile} />
         <About />
       </div>
       <Skills />

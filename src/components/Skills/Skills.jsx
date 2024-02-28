@@ -9,88 +9,66 @@ import { FaBootstrap } from 'react-icons/fa'
 import { FaGitAlt } from 'react-icons/fa'
 const Skills = () => {
   return (
-    <section id='skills' className='pt-10 bg-grey-10'>
-      <div className='container mx-auto px-4'>
+    <section id='skills' className=' bg-grey-10'>
+      <div className='container'>
         <div className='section-heading'>
-          <h2
-            id='skills-title'
-            className='text-4xl text-grey-1 font-semibold font-secondary'>
-            Skills
-          </h2>
-          <div
-            id='skills-title-underline'
-            className='w-[60px] h-[3px] bg-primary-5 mt-2'></div>
+          <h2>Skills</h2>
+          <div className='section-heading-underline'></div>
         </div>
-        <div id='skills-center' className='mt-10 grid grid-cols-3 gap-10 pb-10'>
-          <div
-            id='skills-item-1'
-            className='flex flex-col justify-center items-center text-primary-1'>
+        <div
+          id='skills-center'
+          className='mt-10 md:mt-16 grid grid-cols-3 md:grid-cols-5 gap-10 md:gap-16 pb-10 md:pb-16'>
+          <div id='skills-item-1' className='skills-item'>
             <FaHtml5 size={'32px'} />
-            <p id='skills-name-1' className='mt-1 text-xs'>
+            <p id='skills-name-1' className='skills-name'>
               HTML
             </p>
           </div>
-          <div
-            id='skills-item-2'
-            className='flex flex-col justify-center items-center text-primary-1'>
+          <div id='skills-item-2' className='skills-item'>
             <FaCss3Alt size={'32px'} />
-            <p id='skills-name-2' className='mt-1 text-xs'>
+            <p id='skills-name-2' className='skills-name'>
               CSS
             </p>
           </div>
-          <div
-            id='skills-item-3'
-            className='flex flex-col justify-center items-center text-primary-1'>
+          <div id='skills-item-3' className='skills-item'>
             <IoLogoJavascript size={'32px'} />
-            <p id='skills-name-3' className='mt-1 text-xs'>
+            <p id='skills-name-3' className='skills-name'>
               JavaSciprt
             </p>
           </div>
-          <div
-            id='skills-item-4'
-            className='flex flex-col justify-center items-center text-primary-1'>
+          <div id='skills-item-4' className='skills-item'>
             <FaReact size={'32px'} />
-            <p id='skills-name-4' className='mt-1 text-xs'>
+            <p id='skills-name-4' className='skills-name'>
               React
             </p>
           </div>
-          <div
-            id='skills-item-5'
-            className='flex flex-col justify-center items-center text-primary-1'>
+          <div id='skills-item-5' className='skills-item'>
             <BiLogoRedux size={'32px'} />
-            <p id='skills-name-5' className='mt-1 text-xs'>
+            <p id='skills-name-5' className='skills-name'>
               Redux
             </p>
           </div>
-          <div
-            id='skills-item-6'
-            className='flex flex-col justify-center items-center text-primary-1'>
+          <div id='skills-item-6' className='skills-item'>
             <BiLogoTailwindCss size={'32px'} />
-            <p id='skills-name-6' className='mt-1 text-xs'>
+            <p id='skills-name-6' className='skills-name'>
               Tailwind
             </p>
           </div>
-          <div
-            id='skills-item-7'
-            className='flex flex-col justify-center items-center text-primary-1'>
+          <div id='skills-item-7' className='skills-item'>
             <SiMui size={'32px'} />
-            <p id='skills-name-7' className='mt-1 text-xs'>
+            <p id='skills-name-7' className='skills-name'>
               MUI
             </p>
           </div>
-          <div
-            id='skills-item-8'
-            className='flex flex-col justify-center items-center text-primary-1'>
+          <div id='skills-item-8' className='skills-item'>
             <FaBootstrap size={'32px'} />
-            <p id='skills-name-8' className='mt-1 text-xs'>
+            <p id='skills-name-8' className='skills-name'>
               Bootstrap
             </p>
           </div>
-          <div
-            id='skills-item-9'
-            className='flex flex-col justify-center items-center text-primary-1'>
+          <div id='skills-item-9' className='skills-item'>
             <FaGitAlt size={'32px'} />
-            <p id='skills-name-9' className='mt-1 text-xs'>
+            <p id='skills-name-9' className='skills-name'>
               Git
             </p>
           </div>
