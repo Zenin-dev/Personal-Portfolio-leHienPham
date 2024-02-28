@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zenin-dev.github.io/Personal-Portfolio-leHienPham/",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
