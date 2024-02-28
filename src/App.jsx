@@ -17,8 +17,8 @@ function App() {
       <Contact />
       {/* <!-- footer --> */}
       <footer id='footer' className='bg-slate-950 py-16'>
-        <div class='container mx-auto px-4'>
-          <p class='text-sm text-center text-white'>
+        <div className='container mx-auto px-4'>
+          <p className='text-sm text-center text-white'>
             © 2024 leHienPham. All Rights Reserved
           </p>
         </div>
