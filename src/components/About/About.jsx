@@ -22,8 +22,8 @@ const About = () => {
               className='mt-5 text-base md:leading-relaxed md:w-4/5'>
               Đến với lập trình, tôi tìm thấy niềm đam mê khi được tập trung sâu
               vào việc hoàn thành những dự án. Vì vậy, tôi đã quyết định tự học
-              để trở thành một lập trình viên. Hiện tại, tôi có thể lập trình
-              Front End và đang tìm kiếm công việc thực tập đầu tiên.
+              để trở thành một lập trình viên. Hiện tại, tôi đang tìm kiếm công
+              việc thực tập đầu tiên.
             </p>
             <button className='btn'>
               <a href='#portfolio'>PORTFOLIO</a>
