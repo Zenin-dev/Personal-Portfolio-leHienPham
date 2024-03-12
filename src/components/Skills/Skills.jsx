@@ -1,6 +1,5 @@
+import { BiLogoTypescript } from 'react-icons/bi'
 import { FaNodeJs } from 'react-icons/fa'
-import { BiLogoDjango } from 'react-icons/bi'
-import { FaPython } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io5'
@@ -21,18 +20,13 @@ const Skills = () => {
           id='skills-center'
           className='mt-10 md:mt-16 grid grid-cols-3 md:grid-cols-5 gap-10 md:gap-16 pb-10 md:pb-16'>
           <div className='skills-item'>
-            <FaPython size={'32px'} />
-            <p className='skills-name'>Python</p>
-          </div>
-
-          <div className='skills-item'>
-            <BiLogoDjango size={'32px'} />
-            <p className='skills-name'>Django</p>
-          </div>
-
-          <div className='skills-item'>
             <FaNodeJs size={'32px'} />
             <p className='skills-name'>Node js</p>
+          </div>
+
+          <div className='skills-item'>
+            <BiLogoTypescript size={'32px'} />
+            <p className='skills-name'>TypeScript</p>
           </div>
 
           <div className='skills-item'>
