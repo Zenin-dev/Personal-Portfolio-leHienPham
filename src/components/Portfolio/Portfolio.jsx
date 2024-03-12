@@ -28,14 +28,14 @@ const Portfolio = () => {
               Front-end.
             </p>
             <ul className='project__tags back-end'>
-              <li>Nodejs</li>
+              <li>Node js</li>
               <li>Express</li>
               <li>MongoBD</li>
             </ul>
             <ul className='project__tags front-end'>
               <li>HTML</li>
               <li>CSS</li>
-              <li>JavaScipt</li>
+              <li>JavaScript</li>
               <li>React js</li>
               <li>MUI</li>
             </ul>

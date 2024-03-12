@@ -30,7 +30,7 @@ const Contact = () => {
                 <span>
                   Github:
                   <a href='https://github.com/Zenin-dev' target='_blank'>
-                    github.com/Zenin-dev
+                    github.com/ZeninPhamDev
                   </a>
                 </span>
               </li>

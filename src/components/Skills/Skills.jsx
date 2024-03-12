@@ -1,8 +1,8 @@
+import { BiLogoJavascript } from 'react-icons/bi'
 import { BiLogoTypescript } from 'react-icons/bi'
 import { FaNodeJs } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
-import { IoLogoJavascript } from 'react-icons/io5'
 import { FaReact } from 'react-icons/fa'
 import { BiLogoRedux } from 'react-icons/bi'
 import { BiLogoTailwindCss } from 'react-icons/bi'
@@ -30,8 +30,8 @@ const Skills = () => {
           </div>
 
           <div className='skills-item'>
-            <BiLogoRedux size={'32px'} />
-            <p className='skills-name'>Redux</p>
+            <BiLogoJavascript size={'32px'} />
+            <p className='skills-name'>JavaScript</p>
           </div>
 
           <div className='skills-item'>
@@ -42,11 +42,6 @@ const Skills = () => {
           <div className='skills-item'>
             <FaCss3Alt size={'32px'} />
             <p className='skills-name'>CSS</p>
-          </div>
-
-          <div className='skills-item'>
-            <IoLogoJavascript size={'32px'} />
-            <p className='skills-name'>JavaSciprt</p>
           </div>
 
           <div className='skills-item'>
@@ -62,6 +57,11 @@ const Skills = () => {
           <div className='skills-item'>
             <SiMui size={'32px'} />
             <p className='skills-name'>MUI</p>
+          </div>
+
+          <div className='skills-item'>
+            <BiLogoRedux size={'32px'} />
+            <p className='skills-name'>Redux</p>
           </div>
 
           <div className='skills-item'>
