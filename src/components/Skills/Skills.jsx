@@ -1,10 +1,10 @@
+import { FaBootstrap } from 'react-icons/fa'
 import { BiLogoJavascript } from 'react-icons/bi'
 import { BiLogoTypescript } from 'react-icons/bi'
 import { FaNodeJs } from 'react-icons/fa'
 import { FaHtml5 } from 'react-icons/fa'
 import { FaCss3Alt } from 'react-icons/fa'
 import { FaReact } from 'react-icons/fa'
-import { BiLogoRedux } from 'react-icons/bi'
 import { BiLogoTailwindCss } from 'react-icons/bi'
 import { SiMui } from 'react-icons/si'
 import { FaGitAlt } from 'react-icons/fa'
@@ -50,6 +50,11 @@ const Skills = () => {
           </div>
 
           <div className='skills-item'>
+            <FaBootstrap size={'32px'} />
+            <p className='skills-name'>Bootstrap</p>
+          </div>
+
+          <div className='skills-item'>
             <BiLogoTailwindCss size={'32px'} />
             <p className='skills-name'>Tailwind</p>
           </div>
@@ -57,11 +62,6 @@ const Skills = () => {
           <div className='skills-item'>
             <SiMui size={'32px'} />
             <p className='skills-name'>MUI</p>
-          </div>
-
-          <div className='skills-item'>
-            <BiLogoRedux size={'32px'} />
-            <p className='skills-name'>Redux</p>
           </div>
 
           <div className='skills-item'>
