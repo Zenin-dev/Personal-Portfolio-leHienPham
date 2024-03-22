@@ -22,11 +22,11 @@ const About = () => {
               className='mt-5 text-base md:leading-relaxed md:w-4/5'>
               Đến với lập trình, tôi tìm thấy niềm đam mê khi được tập trung sâu
               vào việc hoàn thành những dự án. Tôi chọn Node.js với JavaScript/
-              TypeScript là chuyên môn chính để phát triển sự nghiệp vì tính đa
-              dụng và tiện dụng của nó.
+              TypeScript là chuyên môn chính để phát triển vì tính đa dụng và
+              tiện dụng của nó.
               <br />
               Hiện tại, tôi có thể lập trình một trang web hoàn chỉnh và đang
-              tìm kiếm công việc thực tập đầu tiên.
+              tìm kiếm công việc thực tập.
             </p>
             <button className='btn'>
               <a href='#portfolio'>PORTFOLIO</a>
