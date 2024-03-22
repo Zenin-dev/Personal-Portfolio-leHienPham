@@ -28,12 +28,12 @@ const Portfolio = () => {
               Front-end.
             </p>
             <ul className='project__tags back-end'>
-              <li>Node js (TypeScript)</li>
-              <li>Express</li>
+              <li>Node.js (TypeScript)</li>
+              <li>Express JS</li>
               <li>MongoBD</li>
             </ul>
             <ul className='project__tags front-end'>
-              <li>React js (TypeScript)</li>
+              <li>React JS (TypeScript)</li>
               <li>Bootstrap</li>
             </ul>
             <div className='project__links'>
@@ -72,12 +72,12 @@ const Portfolio = () => {
               Front-end.
             </p>
             <ul className='project__tags back-end'>
-              <li>Node js (JavaScript)</li>
-              <li>Express</li>
+              <li>Node.js (JavaScript)</li>
+              <li>Express JS</li>
               <li>MongoBD</li>
             </ul>
             <ul className='project__tags front-end'>
-              <li>React js (JavaScript)</li>
+              <li>React JS (JavaScript)</li>
               <li>MUI</li>
             </ul>
             <div className='project__links'>

@@ -21,10 +21,12 @@ const About = () => {
               id='about-desc'
               className='mt-5 text-base md:leading-relaxed md:w-4/5'>
               Đến với lập trình, tôi tìm thấy niềm đam mê khi được tập trung sâu
-              vào việc hoàn thành những dự án. Vì vậy, tôi đã quyết định tự học
-              để trở thành một lập trình viên. Hiện tại, tôi có thể lập trình
-              một trang web hoàn chỉnh và đang tìm kiếm công việc thực tập đầu
-              tiên.
+              vào việc hoàn thành những dự án. Tôi chọn Node.js với JavaScript/
+              TypeScript là chuyên môn chính để phát triển sự nghiệp vì tính đa
+              dụng và tiện dụng của nó.
+              <br />
+              Hiện tại, tôi có thể lập trình một trang web hoàn chỉnh và đang
+              tìm kiếm công việc thực tập đầu tiên.
             </p>
             <button className='btn'>
               <a href='#portfolio'>PORTFOLIO</a>
