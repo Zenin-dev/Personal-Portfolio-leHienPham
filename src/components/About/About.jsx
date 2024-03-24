@@ -21,9 +21,8 @@ const About = () => {
               id='about-desc'
               className='mt-5 text-base md:leading-relaxed md:w-4/5'>
               Đến với lập trình, tôi tìm thấy niềm đam mê khi được tập trung sâu
-              vào việc hoàn thành những dự án. Tôi chọn Node.js với JavaScript/
-              TypeScript là chuyên môn chính để phát triển vì tính đa dụng và
-              tiện dụng của nó.
+              vào việc hoàn thành những dự án. Tôi luôn yêu thích biến những ý
+              tưởng hay trở thành ứng dụng hữu ích dành cho người dùng.
               <br />
               Hiện tại, tôi có thể lập trình một trang web hoàn chỉnh và đang
               tìm kiếm công việc thực tập.

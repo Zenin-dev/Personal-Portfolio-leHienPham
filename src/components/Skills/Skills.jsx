@@ -1,3 +1,5 @@
+import { BiLogoDjango } from 'react-icons/bi'
+import { FaPython } from 'react-icons/fa'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { SiMysql } from 'react-icons/si'
 import { SiMongodb } from 'react-icons/si'
@@ -26,6 +28,11 @@ const Skills = () => {
           className='mt-10 md:mt-16 grid grid-cols-3 md:grid-cols-5 gap-10 md:gap-16 pb-10 md:pb-16'>
           {/* Programing SKills */}
           <div className='skills-item'>
+            <FaPython size={'32px'} />
+            <p className='skills-name'>Python</p>
+          </div>
+
+          <div className='skills-item'>
             <BiLogoJavascript size={'32px'} />
             <p className='skills-name'>JavaScript</p>
           </div>
@@ -36,6 +43,11 @@ const Skills = () => {
           </div>
 
           {/* Backend Skills */}
+          <div className='skills-item'>
+            <BiLogoDjango size={'32px'} />
+            <p className='skills-name'>Django</p>
+          </div>
+
           <div className='skills-item'>
             <FaNodeJs size={'32px'} />
             <p className='skills-name'>Node.js</p>
