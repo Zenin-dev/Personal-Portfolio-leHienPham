@@ -1,5 +1,8 @@
-import projectImg1 from '/src/assets/img/project-Zenin-Shop.png'
-import projectImg2 from '/src/assets/img/project-Kanban-Board.png'
+/* eslint-disable no-unused-vars */
+import projectImg_PygotoBlog from '/src/assets/img/project-Pygoto-Blog.png'
+import projectImg_ZeninShop from '/src/assets/img/project-Zenin-Shop.png'
+import projectImg_KanbanBoard from '/src/assets/img/project-Kanban-Board.png'
+import projectImg_ShineSmile from '/src/assets/img/project-Shine-Smile.png'
 const Portfolio = () => {
   return (
     <section id='portfolio' className='dark:bg-dark-white'>
@@ -11,7 +14,60 @@ const Portfolio = () => {
         {/* <!-- project 1 --> */}
         <div className='project-item'>
           <div className='project-media'>
-            <img className='project__img' src={projectImg1} alt='Shine Smile' />
+            <img
+              className='project__img'
+              src={projectImg_PygotoBlog}
+              alt='Pygoto Blog'
+            />
+          </div>
+          <div className='project-content'>
+            <h3 className='project__title'>
+              <a
+                href='https://zenin.pythonanywhere.com/'
+                className='section-content__title project__title'
+                target='_blank'>
+                PYGOTO BLOG WEBSITE
+              </a>
+            </h3>
+            <p className='project__desc'>
+              Dự án tự học cá nhân, thiết kế website Pygoto Blog với các tính
+              năng đăng ký, đăng nhập, CRUD blog và tương tác like, comment,
+              follow, notification.
+            </p>
+            <ul className='project__tags back-end'>
+              <li>Python</li>
+              <li>Django</li>
+              <li>mySQL</li>
+            </ul>
+            <ul className='project__tags front-end'>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div className='project__links'>
+              <a
+                className='btn'
+                href='https://zenin.pythonanywhere.com/'
+                target='_blank'>
+                Live
+              </a>
+              <a
+                className='btn md:mt-1'
+                href='https://github.com/ZeninPhamDev/Pygoto_Blog--fullstack'
+                target='_blank'>
+                Source
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <!-- project 2 --> */}
+        <div className='project-item project-item-even'>
+          <div className='project-media'>
+            <img
+              className='project__img'
+              src={projectImg_ZeninShop}
+              alt='Zenin Shop'
+            />
           </div>
           <div className='project-content'>
             <h3 className='project__title'>
@@ -52,15 +108,19 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        {/* <!-- project 2 --> */}
-        <div className='project-item  project-item-even '>
+        {/* <!-- project 3 --> */}
+        <div className='project-item'>
           <div className='project-media'>
-            <img className='project__img' src={projectImg2} alt='Kan Board' />
+            <img
+              className='project__img'
+              src={projectImg_KanbanBoard}
+              alt='Kan Board'
+            />
           </div>
           <div className='project-content'>
             <h3 className='project__title'>
               <a
-                href='https://zenin-dev.github.io/Responsive-web-design__Dental-clinic--Shine-Smile/'
+                href='https://kanban-board-zeninphamdev.vercel.app/'
                 className='section-content__title project__title'
                 target='_blank'>
                 KANBAN BOARD WEBSITE
@@ -90,6 +150,48 @@ const Portfolio = () => {
               <a
                 className='btn md:mt-1'
                 href='https://github.com/ZeninPhamDev/Kanban-Board'
+                target='_blank'>
+                Source
+              </a>
+            </div>
+          </div>
+        </div>
+        {/* <!-- project 4 --> */}
+        <div className='project-item  project-item-even '>
+          <div className='project-media'>
+            <img
+              className='project__img'
+              src={projectImg_ShineSmile}
+              alt='Shine Smile'
+            />
+          </div>
+          <div className='project-content'>
+            <h3 className='project__title'>
+              <a
+                href='https://zeninphamdev.github.io/Shine-Smile--Dental-Clinic--Frontend/'
+                className='section-content__title project__title'
+                target='_blank'>
+                SHINE SMILE WEBSITE
+              </a>
+            </h3>
+            <p className='project__desc'>
+              Dự án tự học cá nhân, tạo giao diện Responsive cho website giới
+              thiệu phòng khám nha khoa.
+            </p>
+            <ul className='project__tags front-end'>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div className='project__links'>
+              <a
+                className='btn'
+                href='https://zeninphamdev.github.io/Shine-Smile--Dental-Clinic--Frontend/'
+                target='_blank'>
+                Live
+              </a>
+              <a
+                className='btn md:mt-1'
+                href='https://github.com/ZeninPhamDev/Shine-Smile--Dental-Clinic--Frontend'
                 target='_blank'>
                 Source
               </a>
